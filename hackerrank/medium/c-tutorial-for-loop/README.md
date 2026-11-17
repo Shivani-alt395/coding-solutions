@@ -46,7 +46,7 @@ For each integer $n$ in the inclusive interval $[a, b]$:
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-17T07:22:52.228Z  
+**Submitted:** 2026-11-17T07:30:53.994Z  
 
 ```cpp
 #include <iostream>
