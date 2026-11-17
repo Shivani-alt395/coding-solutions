@@ -1,27 +1,22 @@
 #include <iostream>
 #include <cstdio>
-#include <array>
 using namespace std;
 
+
+int max_of_four(int a, int b, int c, int d){
+    int max(a);
+    max = b>max ? b:max;
+    max = c>max ? c:max;
+    max = d>max ? d:max;
+    return max;
+}
+    
+
 int main() {
-    // Complete the code.
+    int a, b, c, d;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    int ans = max_of_four(a, b, c, d);
+    printf("%d", ans);
     
-    int a,b;
-    cin>>a>>b;
-    array<string,9> arr ={"one","two","three","four","five","six","seven","eight","nine"};
-    
-    for(int i=a;i<=b;i++){
-        if(i<=9){
-            cout<< arr[i-1]<<"\n";
-        }
-        else{
-            if(i%2==0){
-                cout<<"even"<<"\n";
-            }
-            else{
-                cout<<"odd"<<"\n";
-            }
-        }
-    }
-return 0;
+    return 0;
 }
