@@ -26,7 +26,7 @@ Explanation: a and b are printed in a single line and a space separates them.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-27T14:07:47.167Z  
+**Submitted:** 2026-11-27T14:07:52.378Z  
 
 ```cpp
 #include <bits/stdc++.h>
